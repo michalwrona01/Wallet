@@ -7,7 +7,7 @@
 
 # Wallet
 ## Description
-The application was created as part of a project during studies on the subject of "Programming in C ++". The application combines the backend layer and desktop development. 
+The application was created as part of a project during studies on the subject of "Programming in C++". The application combines the backend layer and desktop development. 
 In the project I am using the Oatpp and Qt frameworks. Project Api is based on REST architecture and SQLite relational database.
 
 # Technologies
