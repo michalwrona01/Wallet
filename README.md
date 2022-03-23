@@ -51,6 +51,9 @@ In the project I am using the Oatpp and Qt frameworks. Project Api is based on R
 ### Diagram
 ![Diagram](images/diagram.png)
 
+## Video of the program
+https://user-images.githubusercontent.com/73277848/159808781-96e6343c-7634-479b-9d9d-4d384b3cfa01.mp4
+
 # Features
 - History transations
 - Add budget
