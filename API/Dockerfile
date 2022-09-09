@@ -12,6 +12,8 @@ ADD . /service
 
 WORKDIR /service/utility
 
+RUN chmod +x ./install-oatpp-modules.sh
+
 RUN ./install-oatpp-modules.sh Release
 
 WORKDIR /service/build
