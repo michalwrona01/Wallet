@@ -5,7 +5,7 @@
 * [Features](#features)
 * [Project Status](#project-status)
 
-# Wallet
+# Wallet ([walletapi.wronamichal.pl](https://walletapi.wronamichal.pl/swagger/ui))
 ## Description
 The application was created as part of a project during studies on the subject of "Programming in C++". The application combines the backend layer and desktop development. 
 In the project I am using the Oatpp and Qt frameworks. Project Api is based on REST architecture and SQLite relational database.
