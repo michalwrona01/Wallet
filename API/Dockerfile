@@ -12,8 +12,6 @@ ADD . /service
 
 WORKDIR /service/utility
 
-RUN chmod +x ./install-oatpp-modules.sh
-
 RUN ./install-oatpp-modules.sh Release
 
 WORKDIR /service/build
@@ -21,6 +19,3 @@ WORKDIR /service/build
 RUN cmake ..
 RUN make
 
-EXPOSE 8000 8000
-
-ENTRYPOINT ["./crud-exe"]

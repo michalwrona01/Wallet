@@ -18,9 +18,9 @@ public:
     {
 
         oatpp::orm::SchemaMigration migration(executor);
-        migration.addFile(3 /* start from version 1 */, DATABASE_MIGRATIONS "/003_init_HistoryBudget.sql");
-        // TODO - Add more migrations here.
-        migration.migrate(); // <-- run migrations. This guy will throw on error.
+//        migration.addFile(3 /* start from version 1 */, DATABASE_MIGRATIONS "/003_init_HistoryBudget.sql");
+//        // TODO - Add more migrations here.
+//        migration.migrate(); // <-- run migrations. This guy will throw on error.
 
         auto version = executor->getSchemaVersion();
         OATPP_LOGD("HistoryBudgetDb", "Migration - OK. Version=%lld.", version);

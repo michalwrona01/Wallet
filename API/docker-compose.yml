@@ -1,0 +1,15 @@
+version: "3.3"
+
+services:
+  wallet_web:
+    build: .
+    command: ./crud-exe
+    volumes:
+      - .:/code
+    expose:
+      - "8000"
+    networks:
+      - nginx_network
+networks:
+  nginx_network:
+    external: true
